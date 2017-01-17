@@ -11,6 +11,8 @@
 ///播放自定制提示音
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioToolbox.h>
+///
+#import "AppVersionCheck.h"
 static SystemSoundID push = 0;
 
 
@@ -35,6 +37,8 @@ static SystemSoundID push = 0;
     manager.enableAutoToolbar = YES;
     
     [MagicalRecord setupAutoMigratingCoreDataStack];
+    
+    [AppVersionCheck versionRequest];
     
     // Override point for customization after application launch.
     return YES;

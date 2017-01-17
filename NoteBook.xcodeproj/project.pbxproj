@@ -27,12 +27,15 @@
 		6E937C071E1E20370080369F /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E937C061E1E20370080369F /* CalendarViewController.m */; };
 		6E937C0A1E1E20550080369F /* WriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E937C091E1E20550080369F /* WriteViewController.m */; };
 		6E937C0F1E1E41730080369F /* DateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E937C0E1E1E41730080369F /* DateTool.m */; };
+		6EAF4CDB1E2DA54300F19812 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4CDA1E2DA54300F19812 /* README.md */; };
+		6EAF4CE81E2DA6A700F19812 /* AppInfomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4CE71E2DA6A700F19812 /* AppInfomation.m */; };
+		6EAF4CEB1E2DA72C00F19812 /* AppVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4CEA1E2DA72C00F19812 /* AppVersionCheck.m */; };
+		6EAF4CEF1E2DB04200F19812 /* CameraAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4CEE1E2DB04200F19812 /* CameraAlbumVC.m */; };
 		6EC46BCB1E27274100B51E89 /* BillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC46BC91E27274100B51E89 /* BillViewController.m */; };
 		6EC46BCC1E27274100B51E89 /* BillViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC46BCA1E27274100B51E89 /* BillViewController.xib */; };
 		6EC46BCF1E2729DB00B51E89 /* BillDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC46BCE1E2729DB00B51E89 /* BillDetailViewController.m */; };
 		6EC46BD21E272ABF00B51E89 /* BillAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC46BD11E272ABF00B51E89 /* BillAddViewController.m */; };
 		6EC46BEA1E27461500B51E89 /* DailyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EC46BE81E27461500B51E89 /* DailyCoreData.xcdatamodeld */; };
-		6EC46C1D1E27623300B51E89 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 6EC46C1C1E27623300B51E89 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +78,13 @@
 		6E937C0B1E1E3C4D0080369F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6E937C0D1E1E41730080369F /* DateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTool.h; sourceTree = "<group>"; };
 		6E937C0E1E1E41730080369F /* DateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTool.m; sourceTree = "<group>"; };
+		6EAF4CDA1E2DA54300F19812 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6EAF4CE61E2DA6A700F19812 /* AppInfomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfomation.h; sourceTree = "<group>"; };
+		6EAF4CE71E2DA6A700F19812 /* AppInfomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfomation.m; sourceTree = "<group>"; };
+		6EAF4CE91E2DA72C00F19812 /* AppVersionCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppVersionCheck.h; sourceTree = "<group>"; };
+		6EAF4CEA1E2DA72C00F19812 /* AppVersionCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppVersionCheck.m; sourceTree = "<group>"; };
+		6EAF4CED1E2DB04200F19812 /* CameraAlbumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraAlbumVC.h; sourceTree = "<group>"; };
+		6EAF4CEE1E2DB04200F19812 /* CameraAlbumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraAlbumVC.m; sourceTree = "<group>"; };
 		6EC46BC81E27274100B51E89 /* BillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillViewController.h; sourceTree = "<group>"; };
 		6EC46BC91E27274100B51E89 /* BillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillViewController.m; sourceTree = "<group>"; };
 		6EC46BCA1E27274100B51E89 /* BillViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillViewController.xib; sourceTree = "<group>"; };
@@ -83,7 +93,6 @@
 		6EC46BD01E272ABF00B51E89 /* BillAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillAddViewController.h; sourceTree = "<group>"; };
 		6EC46BD11E272ABF00B51E89 /* BillAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillAddViewController.m; sourceTree = "<group>"; };
 		6EC46BE91E27461500B51E89 /* DailyCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyCoreData.xcdatamodel; sourceTree = "<group>"; };
-		6EC46C1C1E27623300B51E89 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		7E2A455B36D516C55CD31891 /* Pods-NoteBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoteBook/Pods-NoteBook.debug.xcconfig"; sourceTree = "<group>"; };
 		97E91767A02BB327AFF20E97 /* Pods_NoteBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoteBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8E2340C7C2CB2E274BEA78 /* Pods-NoteBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoteBook/Pods-NoteBook.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +131,7 @@
 		6E937BCF1E1DF5C70080369F = {
 			isa = PBXGroup;
 			children = (
+				6EAF4CDA1E2DA54300F19812 /* README.md */,
 				6E937BDA1E1DF5C70080369F /* NoteBook */,
 				6E937BD91E1DF5C70080369F /* Products */,
 				967216246C1C2C9F6E38C4F5 /* Pods */,
@@ -141,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				6E84456F1E2879280010A286 /* NoteBook.entitlements */,
-				6EC46C1C1E27623300B51E89 /* README */,
 				6EC46BF71E2746FA00B51E89 /* coredata */,
 				6E937BFC1E1E1AE20080369F /* daliy */,
 				6E937BF81E1DF6820080369F /* 工具 */,
@@ -180,6 +189,8 @@
 		6E937BF81E1DF6820080369F /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				6EAF4CEC1E2DB02900F19812 /* 调用摄像头和相册 */,
+				6EAF4CDC1E2DA65F00F19812 /* 检测升级 */,
 				6E8445681E28778E0010A286 /* keyChain */,
 				6E937BF91E1DF6FA0080369F /* ReplaceMacro.h */,
 				6E937BFA1E1DF6FA0080369F /* PrefixHeader.pch */,
@@ -216,6 +227,26 @@
 				6E8B671B1E1FA2B500F6EB05 /* ListTBVC.m */,
 			);
 			name = "项目";
+			sourceTree = "<group>";
+		};
+		6EAF4CDC1E2DA65F00F19812 /* 检测升级 */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF4CE61E2DA6A700F19812 /* AppInfomation.h */,
+				6EAF4CE71E2DA6A700F19812 /* AppInfomation.m */,
+				6EAF4CE91E2DA72C00F19812 /* AppVersionCheck.h */,
+				6EAF4CEA1E2DA72C00F19812 /* AppVersionCheck.m */,
+			);
+			name = "检测升级";
+			sourceTree = "<group>";
+		};
+		6EAF4CEC1E2DB02900F19812 /* 调用摄像头和相册 */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF4CED1E2DB04200F19812 /* CameraAlbumVC.h */,
+				6EAF4CEE1E2DB04200F19812 /* CameraAlbumVC.m */,
+			);
+			name = "调用摄像头和相册";
 			sourceTree = "<group>";
 		};
 		6EC46BC71E2726DD00B51E89 /* bill */ = {
@@ -322,7 +353,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EC46C1D1E27623300B51E89 /* README in Resources */,
 				6E937BEB1E1DF5C80080369F /* LaunchScreen.storyboard in Resources */,
 				6E8445641E286AFB0010A286 /* BillTableViewCell.xib in Resources */,
 				6EC46BCC1E27274100B51E89 /* BillViewController.xib in Resources */,
@@ -388,6 +418,8 @@
 			files = (
 				6E937BE31E1DF5C80080369F /* ViewController.m in Sources */,
 				6EC46BCF1E2729DB00B51E89 /* BillDetailViewController.m in Sources */,
+				6EAF4CDB1E2DA54300F19812 /* README.md in Sources */,
+				6EAF4CEB1E2DA72C00F19812 /* AppVersionCheck.m in Sources */,
 				6E84456E1E2877ED0010A286 /* SaveManager.m in Sources */,
 				6E937BE01E1DF5C80080369F /* AppDelegate.m in Sources */,
 				6E8B671C1E1FA2B500F6EB05 /* ListTBVC.m in Sources */,
@@ -402,6 +434,8 @@
 				6E937BFF1E1E1B200080369F /* DiaryViewController.m in Sources */,
 				6E937BF51E1DF61B0080369F /* MainViewController.m in Sources */,
 				6E84456B1E2877A70010A286 /* SFHFKeychainUtils.m in Sources */,
+				6EAF4CEF1E2DB04200F19812 /* CameraAlbumVC.m in Sources */,
+				6EAF4CE81E2DA6A700F19812 /* AppInfomation.m in Sources */,
 				6E937C0F1E1E41730080369F /* DateTool.m in Sources */,
 				6E8445671E2876EB0010A286 /* ReadSQL.m in Sources */,
 				6E937C071E1E20370080369F /* CalendarViewController.m in Sources */,
