@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Bill+CoreDataClass.h">
+   </FileRef>
+   <FileRef
+      location = "group:Bill+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:Bill+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:Bill+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:Daily+CoreDataClass.h">
+   </FileRef>
+   <FileRef
+      location = "group:Daily+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:Daily+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:Daily+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:User+CoreDataClass.h">
+   </FileRef>
+   <FileRef
+      location = "group:User+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:User+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:User+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:NoteBook.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
